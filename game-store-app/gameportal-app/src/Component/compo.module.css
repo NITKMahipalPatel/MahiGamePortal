@@ -1,0 +1,75 @@
+.Welcome{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 900%;
+    background-color: gray;
+}
+
+#centralNavigator {
+    color: aquamarine;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-color: brown;
+    border-width: 10px;
+    border-right: 10px;
+    border-top: 10px;
+    cursor: pointer;
+
+    /*transition: background-color 0s, transform 0s; /* Smooth transitions */
+
+}
+#centralNavigator:hover {
+    background-color: #000000; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+
+#likeNavigator {
+    text-align: right;
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+#likeNavigatorSub {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+#likeNavigatorSub:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+
+#buttonName {
+    text-align: center;
+}
+#button {
+    background: linear-gradient(45deg, #2f00ff, #826f58, #56a17f);
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 30px; /* Add padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth transition */
+    border-radius: 10%;
+}
+#button:hover {
+    background-color: #000000; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+#centralNavigatorBox {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#Temp {
+    text-align: center;
+}
